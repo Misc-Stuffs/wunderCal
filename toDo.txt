@@ -1,0 +1,3 @@
+1. Create functionality for the user to be able to display the current/last formula they used.
+2. After the user has selected their formula/calculation type, display the calculation type above the "First number: " prompt.
+3. Allow the user to backout of the calculation once they have started it, without having to complete the prompts.
