@@ -4,6 +4,7 @@
     <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/wunderCal/wunderCalUI.class" afterPath="$PROJECT_DIR$/out/production/wunderCal/wunderCalUI.class" />
       <change beforePath="$PROJECT_DIR$/src/wunderCalUI.java" afterPath="$PROJECT_DIR$/src/wunderCalUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,8 +84,8 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="width" value="1141" />
+    <option name="height" value="711" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
