@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class wunderCalUI {
@@ -172,6 +173,34 @@ public class wunderCalUI {
         double usersNumber = Double.parseDouble(userinput);
 
         return usersNumber;
+
+    }
+
+    public static void showCurrentFormula() {
+
+        HashMap<String, String> formulas = new HashMap<String, String>();
+
+        //BASICMATH formulas
+        formulas.put(BASICMATH_ADDITION, "x + y");
+        formulas.put(BASICMATH_SUBTRACTION, "x - y");
+        formulas.put(BASICMATH_MULTIPLICATION, "x * y");
+        formulas.put(BASICMATH_DIVISION, "x / y");
+
+        //AREA formulas
+        formulas.put(AREAMENU_SQUARE, "s^2");
+        formulas.put(AREAMENU_RECTANGLE, "b * h");
+        formulas.put(AREAMENU_TRIANGLE, "(b * h) / 2");
+        formulas.put(AREAMENU_PARALLELOGRAM, "b * h");
+        formulas.put(AREAMENU_TRAPEZOID, "((b1 + b2) * h) / 2");
+        formulas.put(AREAMENU_CIRCLE, "(r^2) * PI");
+
+        //VOLUME formulas
+        formulas.put(VOLUMEMENU_CUBE, "s^3");
+        formulas.put(VOLUMEMENU_RECTANGULARPRISM, "l * w * h");
+        formulas.put(VOLUMEMENU_PYRAMID, "(b * h) /3");
+        formulas.put(VOLUMEMENU_CYLINDER, "((r^2) * h) * PI");
+        formulas.put(VOLUMEMENU_CONE, "(((r^2) * h) * PI) / 3");
+        formulas.put(VOLUMEMENU_SPHERE, "((r^3) * PI) * (4/3)");
 
     }
 
