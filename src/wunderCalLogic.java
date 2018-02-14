@@ -1,5 +1,6 @@
 public class wunderCalLogic {
 
+    //BASICMATH functions
     public static double additionFunction(double num1, double num2) {
 
         return num1 + num2;
@@ -24,6 +25,7 @@ public class wunderCalLogic {
 
     }
 
+    //AREA functions
     public static double squareAreaFunction(double side) {
 
         return Math.pow(side, 2);
@@ -60,6 +62,7 @@ public class wunderCalLogic {
 
     }
 
+    //VOLUME functions
     public static double cubeVolume(double side) {
 
         return Math.pow(side, 3);
@@ -108,6 +111,7 @@ public class wunderCalLogic {
 
     }
 
+    //EXPONENT functions
     public static double numberSquared(double num) {
 
         return Math.pow(num, 2);

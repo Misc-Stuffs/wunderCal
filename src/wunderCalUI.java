@@ -46,6 +46,7 @@ public class wunderCalUI {
     public static final int VOLUMEMENU = 4;
     public static final int EXPONENTMENU = 5;
 
+    //Runs the console UI
     public static void runUI() {
 
         boolean continueRunning = true;
@@ -66,6 +67,7 @@ public class wunderCalUI {
 
     }
 
+    //displays the Main Menu in the console for the user
     public static void displayMainMenu() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
@@ -79,6 +81,7 @@ public class wunderCalUI {
 
     }
 
+    //displays the Basicmath Menu in the console for the user
     public static void displayBasicMathMenu() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
@@ -92,6 +95,7 @@ public class wunderCalUI {
 
     }
 
+    //displays the Area Menu in the console for the user
     public static void displayAreaMenu() {
 
         System.out.println("Please choose an option and select the number the corresponds to your selection.");
@@ -107,6 +111,7 @@ public class wunderCalUI {
 
     }
 
+    //displays the Volume Menu in the console for the user
     public static void displayVolumeMenu() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
@@ -122,6 +127,7 @@ public class wunderCalUI {
 
     }
 
+    //displays the Exponent Menu in the console for the user
     public static void displayExponentMenu() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
@@ -134,6 +140,7 @@ public class wunderCalUI {
 
     }
 
+    //takes in the currentMenu variable from runUI and uses that number to select and display the menu that corresponds to the selected number
     public static void displayMenu(int currentMenu) {
 
         switch(currentMenu) {
@@ -156,6 +163,7 @@ public class wunderCalUI {
 
     }
 
+    //reads the users input, stores it in a String userInput and returns it (always capitalized)
     public static String readUserInput() {
 
         Scanner input = new Scanner(System.in);
@@ -167,6 +175,7 @@ public class wunderCalUI {
 
     }
 
+    //converts the strings (numbers) entered by the user into doubles so that the math functions work properly
     public static double userInputStringToDouble() {
 
         String userinput = readUserInput();
@@ -176,6 +185,7 @@ public class wunderCalUI {
 
     }
 
+    //  [WIP]  stores the formula for the corresponding String (i.e BASICMATH_ADDITION)
     public static void showCurrentFormula() {
 
         HashMap<String, String> formulas = new HashMap<String, String>();
@@ -204,8 +214,10 @@ public class wunderCalUI {
 
     }
 
+    //this method processes the user input by taking current menu, using that value, and selecting the corresponding case to process the current menu the user is on
     public static Integer processUserInput(Integer currentMenu, String userInput) {
 
+        //Debugging statements, tracks the userInput and currentMenu throughout the execution of the program
         System.out.println("currentMenu = [" + currentMenu + "]");
         System.out.println("userInput = [" + userInput + "]");
 
@@ -231,6 +243,7 @@ public class wunderCalUI {
 
     }
 
+    //takes the userInput and uses that to select the menu that corresponds to their selection and sets nextMenu to that selection, and returns nextMenu
     public static Integer processMainMenu(String userInput) {
 
         int nextMenu = MAINMENU;
@@ -257,6 +270,7 @@ public class wunderCalUI {
 
     }
 
+    //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processBasicMathMenu(String userInput) {
 
         int nextMenu = BASICMATHMENU;
@@ -304,6 +318,7 @@ public class wunderCalUI {
 
     }
 
+    //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processAreaMenu(String userInput) {
 
         int nextMenu = AREAMENU;
@@ -365,6 +380,7 @@ public class wunderCalUI {
 
     }
 
+    //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processVolumeMenu(String userInput) {
 
         int nextMenu = VOLUMEMENU;
@@ -453,6 +469,7 @@ public class wunderCalUI {
 
     }
 
+    //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processExponentMenu(String userInput) {
 
         int nextMenu = EXPONENTMENU;
