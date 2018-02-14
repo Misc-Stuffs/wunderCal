@@ -166,12 +166,12 @@ public class wunderCalUI {
 
     }
 
-    public static double userInputStringToDouble(String userInput) {
+    public static double userInputStringToDouble() {
 
-        String getNum1, getNum2;
-        double num1, num2;
+        String userinput = readUserInput();
+        double usersNumber = Double.parseDouble(userinput);
 
-        
+        return usersNumber;
 
     }
 
@@ -231,8 +231,7 @@ public class wunderCalUI {
     public static Integer processBasicMathMenu(String userInput) {
 
         int nextMenu = BASICMATHMENU;
-        double num1, num2, result = 0.0;
-        String getNum1, getNum2 = "";
+        double num1, num2, result;
 
         switch(userInput) {
             case MENU_BACK:
@@ -240,41 +239,33 @@ public class wunderCalUI {
                 break;
             case BASICMATH_ADDITION:
                 System.out.print("First number: ");
-                getNum1 = readUserInput();
+                num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
-                getNum2 = readUserInput();
-                num1 = Double.parseDouble(getNum1);
-                num2 = Double.parseDouble(getNum2);
+                num2 = userInputStringToDouble();
                 result = wunderCalLogic.additionFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
             case BASICMATH_SUBTRACTION:
                 System.out.print("First number: ");
-                getNum1 = readUserInput();
+                num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
-                getNum2 = readUserInput();
-                num1 = Double.parseDouble(getNum1);
-                num2 = Double.parseDouble(getNum2);
+                num2 = userInputStringToDouble();
                 result = wunderCalLogic.subtractionFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
             case BASICMATH_MULTIPLICATION:
                 System.out.print("First number: ");
-                getNum1 = readUserInput();
+                num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
-                getNum2 = readUserInput();
-                num1 = Double.parseDouble(getNum1);
-                num2 = Double.parseDouble(getNum2);
+                num2 = userInputStringToDouble();
                 result = wunderCalLogic.multiplicationFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
             case BASICMATH_DIVISION:
                 System.out.print("First number: ");
-                getNum1 = readUserInput();
+                num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
-                getNum2 = readUserInput();
-                num1 = Double.parseDouble(getNum1);
-                num2 = Double.parseDouble(getNum2);
+                num2 = userInputStringToDouble();
                 result = wunderCalLogic.divisionFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
@@ -287,8 +278,7 @@ public class wunderCalUI {
     public static Integer processAreaMenu(String userInput) {
 
         int nextMenu = AREAMENU;
-        double side, base, base2, height, radius, result = 0.0;
-        String getSide, getBase, getBase2, getHeight, getRadius = "";
+        double side, base, base2, height, radius, result;
 
         switch(userInput) {
             case MENU_BACK:
@@ -296,58 +286,47 @@ public class wunderCalUI {
                 break;
             case AREAMENU_SQUARE:
                 System.out.print("Side length: ");
-                getSide = readUserInput();
-                side = Double.parseDouble(getSide);
+                side = userInputStringToDouble();
                 result = wunderCalLogic.squareAreaFunction(side);
                 System.out.println("Result: " + result + "\n");
                 break;
             case AREAMENU_RECTANGLE:
                 System.out.print("Base: ");
-                getBase = readUserInput();
+                base = userInputStringToDouble();
                 System.out.print("Height: ");
-                getHeight = readUserInput();
-                base = Double.parseDouble(getBase);
-                height = Double.parseDouble(getHeight);
+                height = userInputStringToDouble();
                 result = wunderCalLogic.rectangleAreaFunction(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
             case AREAMENU_TRIANGLE:
                 System.out.print("Base: ");
-                getBase = readUserInput();
+                base = userInputStringToDouble();
                 System.out.print("Height: ");
-                getHeight = readUserInput();
-                base = Double.parseDouble(getBase);
-                height = Double.parseDouble(getHeight);
+                height = userInputStringToDouble();
                 result = wunderCalLogic.triangleAreaFunction(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
             case AREAMENU_PARALLELOGRAM:
                 System.out.print("Base: ");
-                getBase = readUserInput();
+                base = userInputStringToDouble();
                 System.out.print("Height: ");
-                getHeight = readUserInput();
-                base = Double.parseDouble(getBase);
-                height = Double.parseDouble(getHeight);
+                height = userInputStringToDouble();
                 result = wunderCalLogic.parallelogramAreaFunction(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
             case AREAMENU_TRAPEZOID:
                 System.out.print("Height: ");
-                getHeight = readUserInput();
+                height = userInputStringToDouble();
                 System.out.print("Base 1: ");
-                getBase = readUserInput();
+                base = userInputStringToDouble();
                 System.out.print("Base 2: ");
-                getBase2 = readUserInput();
-                height = Double.parseDouble(getHeight);
-                base = Double.parseDouble(getBase);
-                base2 = Double.parseDouble(getBase2);
+                base2 = userInputStringToDouble();
                 result = wunderCalLogic.trapezoidAreaFunction(height, base, base2);
                 System.out.println("Result: " + result + "\n");
                 break;
             case AREAMENU_CIRCLE:
                 System.out.print("Radius: ");
-                getRadius = readUserInput();
-                radius = Double.parseDouble(getRadius);
+                radius = userInputStringToDouble();
                 result = wunderCalLogic.circleAreaFunction(radius);
                 System.out.println("Result: " + result + "\n");
                 break;
@@ -360,8 +339,8 @@ public class wunderCalUI {
     public static Integer processVolumeMenu(String userInput) {
 
         int nextMenu = VOLUMEMENU;
-        double side, length, width, height, base, radius, result = 0.0;
-        String getSide, getLength, getWidth, getHeight, getBase, getRadius, baseAnswer = "";
+        double side, length, width, height, base, radius, result;
+        String baseAnswer;
 
         switch(userInput) {
             case MENU_BACK:
@@ -369,31 +348,25 @@ public class wunderCalUI {
                 break;
             case VOLUMEMENU_CUBE:
                 System.out.print("Side length: ");
-                getSide = readUserInput();
-                side = Double.parseDouble(getSide);
+                side = userInputStringToDouble();
                 result = wunderCalLogic.cubeVolume(side);
                 System.out.println("Result: " + result + "\n");
                 break;
             case VOLUMEMENU_RECTANGULARPRISM:
                 System.out.print("Length: ");
-                getLength = readUserInput();
+                length = userInputStringToDouble();
                 System.out.print("Width: ");
-                getWidth = readUserInput();
+                width = userInputStringToDouble();
                 System.out.print("Height: ");
-                getHeight = readUserInput();
-                length = Double.parseDouble(getLength);
-                width = Double.parseDouble(getWidth);
-                height = Double.parseDouble(getHeight);
+                height = userInputStringToDouble();
                 result = wunderCalLogic.rectangularPrismVolume(length, width, height);
                 System.out.println("Result: " + result + "\n");
                 break;
             case VOLUMEMENU_PYRAMID:
                 System.out.print("Base: ");
-                getBase = readUserInput();
+                base = userInputStringToDouble();
                 System.out.print("Height: ");
-                getHeight =  readUserInput();
-                base = Double.parseDouble(getBase);
-                height = Double.parseDouble(getHeight);
+                height = userInputStringToDouble();
                 result = wunderCalLogic.pyramidVolume(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
@@ -403,20 +376,16 @@ public class wunderCalUI {
 
                 if(baseAnswer.equals("Y")) {
                     System.out.print("Base: ");
-                    getBase = readUserInput();
+                    base = userInputStringToDouble();
                     System.out.print("Height: ");
-                    getHeight = readUserInput();
-                    base = Double.parseDouble(getBase);
-                    height = Double.parseDouble(getHeight);
+                    height = userInputStringToDouble();
                     result = wunderCalLogic.cylinderVolumeWithBase(base, height);
                     System.out.println("Result: " + result + "\n");
                 } else {
                     System.out.print("Radius: ");
-                    getRadius = readUserInput();
+                    radius = userInputStringToDouble();
                     System.out.print("Height: ");
-                    getHeight = readUserInput();
-                    radius = Double.parseDouble(getRadius);
-                    height = Double.parseDouble(getHeight);
+                    height = userInputStringToDouble();
                     result = wunderCalLogic.cylinderVolumeWithoutBase(radius, height);
                     System.out.println("Result: " + result + "\n");
                 }
@@ -428,20 +397,16 @@ public class wunderCalUI {
 
                 if(baseAnswer.equals("Y")) {
                     System.out.print("Base: ");
-                    getBase = readUserInput();
+                    base = userInputStringToDouble();
                     System.out.print("Height: ");
-                    getHeight = readUserInput();
-                    base = Double.parseDouble(getBase);
-                    height = Double.parseDouble(getHeight);
+                    height = userInputStringToDouble();
                     result = wunderCalLogic.coneVolumeWithBase(base, height);
                     System.out.println("Result: " + result + "\n");
                 } else {
                     System.out.print("Radius: ");
-                    getRadius = readUserInput();
+                    radius = userInputStringToDouble();
                     System.out.print("Height: ");
-                    getHeight = readUserInput();
-                    radius = Double.parseDouble(getRadius);
-                    height = Double.parseDouble(getHeight);
+                    height = userInputStringToDouble();
                     result = wunderCalLogic.coneVolumeWithoutBase(radius, height);
                     System.out.println("Result: " + result + "\n");
                 }
@@ -449,8 +414,7 @@ public class wunderCalUI {
                 break;
             case VOLUMEMENU_SPHERE:
                 System.out.print("Radius: ");
-                getRadius = readUserInput();
-                radius = Double.parseDouble(getRadius);
+                radius = userInputStringToDouble();
                 result = wunderCalLogic.sphereVolume(radius);
                 System.out.println("Result: " + result + "\n");
                 break;
@@ -463,8 +427,7 @@ public class wunderCalUI {
     public static Integer processExponentMenu(String userInput) {
 
         int nextMenu = EXPONENTMENU;
-        double num, customPower, result = 0.0;
-        String getNum, getCustomPower = "";
+        double num, customPower, result;
 
         switch(userInput) {
             case MENU_BACK:
@@ -472,25 +435,21 @@ public class wunderCalUI {
                 break;
             case EXPONENTMENU_SQUARED:
                 System.out.print("Number: ");
-                getNum = readUserInput();
-                num = Double.parseDouble(getNum);
+                num = userInputStringToDouble();
                 result = wunderCalLogic.numberSquared(num);
                 System.out.println("Result: " + result + "\n");
                 break;
             case EXPONENTMENU_CUBED:
                 System.out.print("Number: ");
-                getNum = readUserInput();
-                num = Double.parseDouble(getNum);
+                num = userInputStringToDouble();
                 result = wunderCalLogic.numberCubed(num);
                 System.out.println("Result: " + result + "\n");
                 break;
             case EXPONENTMENU_CHOOSE:
                 System.out.print("Number: ");
-                getNum = readUserInput();
+                num = userInputStringToDouble();
                 System.out.print("Custom Power: ");
-                getCustomPower = readUserInput();
-                num = Double.parseDouble(getNum);
-                customPower = Double.parseDouble(getCustomPower);
+                customPower = userInputStringToDouble();
                 result = wunderCalLogic.numberWithCustomPower(num, customPower);
                 System.out.println("Result: " + result + "\n");
                 break;
