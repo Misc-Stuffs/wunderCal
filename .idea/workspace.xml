@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/wunderCalUI.java" afterPath="$PROJECT_DIR$/src/wunderCalUI.java" />
-    </list>
+    <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

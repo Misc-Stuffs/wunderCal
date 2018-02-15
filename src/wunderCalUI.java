@@ -43,7 +43,7 @@ public class wunderCalUI {
     //Main Menu Option
     public static final String MAINMENU_AREA = "2";
         //Sub Menus for MAINMENU_AREA
-        
+
 
 
 
