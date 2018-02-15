@@ -185,12 +185,7 @@ public class wunderCalUI {
 
     }
 
-<<<<<<< HEAD
     public static void showCurrentFormula(String key) {
-=======
-    //  [WIP]  stores the formula for the corresponding String (i.e BASICMATH_ADDITION)
-    public static void showCurrentFormula() {
->>>>>>> c54a5a6e94c0fe7d9755f331eb84e326db3b0441
 
         HashMap<String, String> formulas = new HashMap<String, String>();
 
@@ -228,13 +223,10 @@ public class wunderCalUI {
     //this method processes the user input by taking current menu, using that value, and selecting the corresponding case to process the current menu the user is on
     public static Integer processUserInput(Integer currentMenu, String userInput) {
 
-<<<<<<< HEAD
-=======
         //Debugging statements, tracks the userInput and currentMenu throughout the execution of the program
         System.out.println("currentMenu = [" + currentMenu + "]");
         System.out.println("userInput = [" + userInput + "]");
 
->>>>>>> c54a5a6e94c0fe7d9755f331eb84e326db3b0441
         switch(currentMenu) {
             case MAINMENU:
                 currentMenu = processMainMenu(userInput);
