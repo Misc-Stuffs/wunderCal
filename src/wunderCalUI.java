@@ -3,19 +3,35 @@ import java.util.Scanner;
 
 public class wunderCalUI {
 
-    //User Input for MAINMENU
+    //User Input for MENUS
     public static final String MAINMENU_BASICMATH = "1";
+        //Sub Menus for MAINMENU_BASICMATH
+        public static final String SUBMENU_SIMPLEMATH = "1.1";
+            //Options for SUBMENU_SIMPLEMATH
+            public static final String BM_SMSM_ADDITION = "A";
+            public static final String BM_SMSM_SUBTRACTION = "B";
+            public static final String BM_SMSM_MULTIPLICATION = "C";
+            public static final String BM_SMSM_DIVISION = "D";
+        public static final String SUBMENU_FRACTIONS = "1.2";
+            public static final String BM_SMFR_ADDFRACS = "E";
+            public static final String BM_SMFR_SUBFRACS = "F";
+            public static final String BM_SMFR_MULTIFRACS = "G";
+            public static final String BM_SMFR_DIVIDEFRACS = "H";
+            public static final String BM_SMFR_REDUCEFRAC = "I";
+            public static final String BM_SMFR_CONVERTTOMIXED = "J";
+            public static final String BM_SMFR_CONVERTTOIMPROPER = "K";
+        public static final String SUBMENU_DECIMALS = "1.3";
+            public static final String BM_SMDC_ROUNDUP = "L";
+            public static final String BM_SMDC_ROUNDDOWN = "M";
+        public static final String SUBMENU_PERCENTS = "1.4";
+        public static final String SUBMENU_RADICALS = "1.5";
+        public static final String SUBMENU_EXPONENTS = "1.6";
+
     public static final String MAINMENU_AREA = "2";
     public static final String MAINMENU_VOLUME = "3";
     public static final String MAINMENU_EXPONENT = "4";
     public static final String MAINMENU_EXIT = "X";
     public static final String MENU_BACK = "B";
-
-    //User Input for BASICMATHMENU
-    public static final String BASICMATH_ADDITION = "1.1";
-    public static final String BASICMATH_SUBTRACTION = "1.2";
-    public static final String BASICMATH_MULTIPLICATION = "1.3";
-    public static final String BASICMATH_DIVISION = "1.4";
 
     //User Input for AREAMENU
     public static final String AREAMENU_SQUARE = "2.1";
