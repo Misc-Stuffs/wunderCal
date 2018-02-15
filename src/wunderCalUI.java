@@ -302,7 +302,13 @@ public class wunderCalUI {
                 break;
         }
 
-        showCurrentFormula(userInput);
+        System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+        String userAnswer = readUserInput();
+        System.out.print("\n");
+
+        if (userAnswer.equals("Y")) {
+            showCurrentFormula(userInput);
+        }
 
         return nextMenu;
 
