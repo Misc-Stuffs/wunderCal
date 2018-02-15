@@ -18,20 +18,20 @@ public class wunderCalUI {
     public static final String BASICMATH_DIVISION = "4";
 
     //User Input for AREAMENU
-    public static final String AREAMENU_SQUARE = "1";
-    public static final String AREAMENU_RECTANGLE = "2";
-    public static final String AREAMENU_TRIANGLE = "3";
-    public static final String AREAMENU_PARALLELOGRAM = "4";
-    public static final String AREAMENU_TRAPEZOID = "5";
-    public static final String AREAMENU_CIRCLE = "6";
+    public static final String AREAMENU_SQUARE = "5";
+    public static final String AREAMENU_RECTANGLE = "6";
+    public static final String AREAMENU_TRIANGLE = "7";
+    public static final String AREAMENU_PARALLELOGRAM = "8";
+    public static final String AREAMENU_TRAPEZOID = "9";
+    public static final String AREAMENU_CIRCLE = "10";
 
     //User Input for VOLUMEMENU
-    public static final String VOLUMEMENU_CUBE = "1";
-    public static final String VOLUMEMENU_RECTANGULARPRISM = "2";
-    public static final String VOLUMEMENU_PYRAMID = "3";
-    public static final String VOLUMEMENU_CYLINDER = "4";
-    public static final String VOLUMEMENU_CONE = "5";
-    public static final String VOLUMEMENU_SPHERE = "6";
+    public static final String VOLUMEMENU_CUBE = "11";
+    public static final String VOLUMEMENU_RECTANGULARPRISM = "12";
+    public static final String VOLUMEMENU_PYRAMID = "13";
+    public static final String VOLUMEMENU_CYLINDER = "14";
+    public static final String VOLUMEMENU_CONE = "15";
+    public static final String VOLUMEMENU_SPHERE = "16";
 
     //User Input for EXPONENTMENU
     public static final String EXPONENTMENU_SQUARED = "1";
@@ -96,12 +96,12 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number the corresponds to your selection.");
 
-        System.out.println("1. Area of a Square");
-        System.out.println("2. Area of a Rectangle");
-        System.out.println("3. Area of a Triangle");
-        System.out.println("4. Area of a Parallelogram");
-        System.out.println("5. Area of a Trapezoid");
-        System.out.println("6. Area of a Circle");
+        System.out.println("5. Area of a Square");
+        System.out.println("6. Area of a Rectangle");
+        System.out.println("7. Area of a Triangle");
+        System.out.println("8. Area of a Parallelogram");
+        System.out.println("9. Area of a Trapezoid");
+        System.out.println("10. Area of a Circle");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -111,12 +111,12 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
-        System.out.println("1. Volume of a Cube");
-        System.out.println("2. Volume of a Rectangular Prism");
-        System.out.println("3. Volume of a Pyramid");
-        System.out.println("4. Volume of a Cylinder");
-        System.out.println("5. Volume of a Cone");
-        System.out.println("6. Volume of a Sphere");
+        System.out.println("11. Volume of a Cube");
+        System.out.println("12. Volume of a Rectangular Prism");
+        System.out.println("13. Volume of a Pyramid");
+        System.out.println("14. Volume of a Cylinder");
+        System.out.println("15. Volume of a Cone");
+        System.out.println("16. Volume of a Sphere");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -176,7 +176,7 @@ public class wunderCalUI {
 
     }
 
-    public static void showCurrentFormula() {
+    public static void showCurrentFormula(String key) {
 
         HashMap<String, String> formulas = new HashMap<String, String>();
 
@@ -201,6 +201,8 @@ public class wunderCalUI {
         formulas.put(VOLUMEMENU_CYLINDER, "((r^2) * h) * PI");
         formulas.put(VOLUMEMENU_CONE, "(((r^2) * h) * PI) / 3");
         formulas.put(VOLUMEMENU_SPHERE, "((r^3) * PI) * (4/3)");
+
+        System.out.println(formulas.get(key) + "\n");
 
     }
 
@@ -300,6 +302,8 @@ public class wunderCalUI {
                 break;
         }
 
+        showCurrentFormula(userInput);
+
         return nextMenu;
 
     }
@@ -360,6 +364,8 @@ public class wunderCalUI {
                 System.out.println("Result: " + result + "\n");
                 break;
         }
+
+        showCurrentFormula(userInput);
 
         return nextMenu;
 
@@ -449,6 +455,8 @@ public class wunderCalUI {
                 break;
         }
 
+        showCurrentFormula(userInput);
+
         return nextMenu;
 
     }
@@ -483,6 +491,8 @@ public class wunderCalUI {
                 System.out.println("Result: " + result + "\n");
                 break;
         }
+
+        showCurrentFormula(userInput);
 
         return nextMenu;
 
