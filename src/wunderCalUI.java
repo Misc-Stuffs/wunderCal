@@ -12,31 +12,31 @@ public class wunderCalUI {
     public static final String MENU_BACK = "B";
 
     //User Input for BASICMATHMENU
-    public static final String BASICMATH_ADDITION = "1";
-    public static final String BASICMATH_SUBTRACTION = "2";
-    public static final String BASICMATH_MULTIPLICATION = "3";
-    public static final String BASICMATH_DIVISION = "4";
+    public static final String BASICMATH_ADDITION = "1.1";
+    public static final String BASICMATH_SUBTRACTION = "1.2";
+    public static final String BASICMATH_MULTIPLICATION = "1.3";
+    public static final String BASICMATH_DIVISION = "1.4";
 
     //User Input for AREAMENU
-    public static final String AREAMENU_SQUARE = "5";
-    public static final String AREAMENU_RECTANGLE = "6";
-    public static final String AREAMENU_TRIANGLE = "7";
-    public static final String AREAMENU_PARALLELOGRAM = "8";
-    public static final String AREAMENU_TRAPEZOID = "9";
-    public static final String AREAMENU_CIRCLE = "10";
+    public static final String AREAMENU_SQUARE = "2.1";
+    public static final String AREAMENU_RECTANGLE = "2.2";
+    public static final String AREAMENU_TRIANGLE = "2.3";
+    public static final String AREAMENU_PARALLELOGRAM = "2.4";
+    public static final String AREAMENU_TRAPEZOID = "2.5";
+    public static final String AREAMENU_CIRCLE = "2.6";
 
     //User Input for VOLUMEMENU
-    public static final String VOLUMEMENU_CUBE = "11";
-    public static final String VOLUMEMENU_RECTANGULARPRISM = "12";
-    public static final String VOLUMEMENU_PYRAMID = "13";
-    public static final String VOLUMEMENU_CYLINDER = "14";
-    public static final String VOLUMEMENU_CONE = "15";
-    public static final String VOLUMEMENU_SPHERE = "16";
+    public static final String VOLUMEMENU_CUBE = "3.1";
+    public static final String VOLUMEMENU_RECTANGULARPRISM = "3.2";
+    public static final String VOLUMEMENU_PYRAMID = "3.3";
+    public static final String VOLUMEMENU_CYLINDER = "3.4";
+    public static final String VOLUMEMENU_CONE = "3.5";
+    public static final String VOLUMEMENU_SPHERE = "3.6";
 
     //User Input for EXPONENTMENU
-    public static final String EXPONENTMENU_SQUARED = "1";
-    public static final String EXPONENTMENU_CUBED = "2";
-    public static final String EXPONENTMENU_CHOOSE = "3";
+    public static final String EXPONENTMENU_SQUARED = "4.1";
+    public static final String EXPONENTMENU_CUBED = "4.2";
+    public static final String EXPONENTMENU_CHOOSE = "4.3";
 
     //Tracking Current Menu
     public static final int EXITMENU = -1;
@@ -83,10 +83,10 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
-        System.out.println("1. Addition");
-        System.out.println("2. Subtraction");
-        System.out.println("3. Multiplication");
-        System.out.println("4. Division");
+        System.out.println("1.1 Addition");
+        System.out.println("1.2 Subtraction");
+        System.out.println("1.3 Multiplication");
+        System.out.println("1.4 Division");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -96,12 +96,12 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number the corresponds to your selection.");
 
-        System.out.println("5. Area of a Square");
-        System.out.println("6. Area of a Rectangle");
-        System.out.println("7. Area of a Triangle");
-        System.out.println("8. Area of a Parallelogram");
-        System.out.println("9. Area of a Trapezoid");
-        System.out.println("10. Area of a Circle");
+        System.out.println("2.1 Area of a Square");
+        System.out.println("2.2 Area of a Rectangle");
+        System.out.println("2.3 Area of a Triangle");
+        System.out.println("2.4 Area of a Parallelogram");
+        System.out.println("2.5 Area of a Trapezoid");
+        System.out.println("2.6 Area of a Circle");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -111,12 +111,12 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
-        System.out.println("11. Volume of a Cube");
-        System.out.println("12. Volume of a Rectangular Prism");
-        System.out.println("13. Volume of a Pyramid");
-        System.out.println("14. Volume of a Cylinder");
-        System.out.println("15. Volume of a Cone");
-        System.out.println("16. Volume of a Sphere");
+        System.out.println("3.1 Volume of a Cube");
+        System.out.println("3.2 Volume of a Rectangular Prism");
+        System.out.println("3.3 Volume of a Pyramid");
+        System.out.println("3.4 Volume of a Cylinder");
+        System.out.println("3.5 Volume of a Cone");
+        System.out.println("3.6 Volume of a Sphere");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -126,9 +126,9 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
-        System.out.println("1. Squared");
-        System.out.println("2. Cubed");
-        System.out.println("3. Choose your own power");
+        System.out.println("4.1 Squared");
+        System.out.println("4.2 Cubed");
+        System.out.println("4.3 Choose your own power");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -202,14 +202,16 @@ public class wunderCalUI {
         formulas.put(VOLUMEMENU_CONE, "(((r^2) * h) * PI) / 3");
         formulas.put(VOLUMEMENU_SPHERE, "((r^3) * PI) * (4/3)");
 
+        //EXPONENT formulas
+        formulas.put(EXPONENTMENU_SQUARED, "x^2");
+        formulas.put(EXPONENTMENU_CUBED, "x^3");
+        formulas.put(EXPONENTMENU_CHOOSE, "x^x");
+
         System.out.println(formulas.get(key) + "\n");
 
     }
 
     public static Integer processUserInput(Integer currentMenu, String userInput) {
-
-        System.out.println("currentMenu = [" + currentMenu + "]");
-        System.out.println("userInput = [" + userInput + "]");
 
         switch(currentMenu) {
             case MAINMENU:
@@ -302,12 +304,14 @@ public class wunderCalUI {
                 break;
         }
 
-        System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
-        String userAnswer = readUserInput();
-        System.out.print("\n");
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
 
-        if (userAnswer.equals("Y")) {
-            showCurrentFormula(userInput);
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
         }
 
         return nextMenu;
@@ -371,7 +375,15 @@ public class wunderCalUI {
                 break;
         }
 
-        showCurrentFormula(userInput);
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
 
         return nextMenu;
 
@@ -461,7 +473,15 @@ public class wunderCalUI {
                 break;
         }
 
-        showCurrentFormula(userInput);
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
 
         return nextMenu;
 
@@ -498,7 +518,15 @@ public class wunderCalUI {
                 break;
         }
 
-        showCurrentFormula(userInput);
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
 
         return nextMenu;
 
