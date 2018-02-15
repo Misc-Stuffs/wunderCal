@@ -4,8 +4,6 @@
     <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/wunderCal/wunderCal.class" afterPath="$PROJECT_DIR$/out/production/wunderCal/wunderCal.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/wunderCal/wunderCalLogic.class" afterPath="$PROJECT_DIR$/out/production/wunderCal/wunderCalLogic.class" />
       <change beforePath="$PROJECT_DIR$/out/production/wunderCal/wunderCalUI.class" afterPath="$PROJECT_DIR$/out/production/wunderCal/wunderCalUI.class" />
       <change beforePath="$PROJECT_DIR$/src/wunderCalUI.java" afterPath="$PROJECT_DIR$/src/wunderCalUI.java" />
     </list>
@@ -25,9 +23,11 @@
       <file leaf-file-name="wunderCal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="68">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file leaf-file-name="wunderCalUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <state relative-caret-position="482">
+              <caret line="187" column="125" lean-forward="false" selection-start-line="187" selection-start-column="125" selection-end-line="187" selection-end-column="125" />
               <folding>
                 <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
                 <element signature="method#displayMainMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -48,7 +48,6 @@
                 <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
                 <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
                 <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="e#6435#6451#0" expanded="true" />
                 <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
                 <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
                 <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -65,7 +64,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+                <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +111,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/wunderCalLogic.java" />
         <option value="$PROJECT_DIR$/src/wunderCal.java" />
+        <option value="$PROJECT_DIR$/src/wunderCalLogic.java" />
         <option value="$PROJECT_DIR$/src/wunderCalUI.java" />
       </list>
     </option>
@@ -264,7 +285,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -275,14 +296,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37122303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37077534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1858006" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26510575" sideWeight="0.49496403" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26812366" sideWeight="0.49496403" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -326,7 +347,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -334,7 +357,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -353,7 +378,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -368,7 +392,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -376,7 +422,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -395,7 +463,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -410,7 +477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -418,7 +487,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -437,7 +508,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -452,7 +522,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,7 +552,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,7 +573,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -494,7 +587,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -502,7 +617,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,7 +627,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,7 +668,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -544,7 +682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -563,7 +703,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -578,7 +717,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -586,7 +747,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,7 +757,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,7 +798,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -628,7 +812,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,7 +822,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -655,7 +863,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -670,7 +877,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +887,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -697,7 +928,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -712,7 +942,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +952,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +993,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -754,7 +1007,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +1028,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -788,7 +1042,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,7 +1072,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,7 +1113,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -830,7 +1127,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -838,7 +1137,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,7 +1158,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -872,7 +1172,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -880,7 +1202,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -899,7 +1223,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -914,7 +1237,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -922,7 +1267,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -930,7 +1277,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +1318,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -964,7 +1332,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +1353,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -998,30 +1367,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="68">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        <state relative-caret-position="482">
+          <caret line="187" column="125" lean-forward="false" selection-start-line="187" selection-start-column="125" selection-end-line="187" selection-end-column="125" />
           <folding>
             <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenu#0;class#wunderCalUI#0" expanded="false" />
@@ -1033,7 +1448,6 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-            <element signature="e#6435#6451#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenu#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenu#0;class#wunderCalUI#0" expanded="false" />

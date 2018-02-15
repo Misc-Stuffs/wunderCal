@@ -185,6 +185,7 @@ public class wunderCalUI {
 
     }
 
+    //stores the formula that corresponds to the function on the left and gets the last formula used for the user when called
     public static void showCurrentFormula(String key) {
 
         HashMap<String, String> formulas = new HashMap<String, String>();
