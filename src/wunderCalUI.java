@@ -4,30 +4,49 @@ import java.util.Scanner;
 public class wunderCalUI {
 
     //User Input for MENUS
+    //Main Menu Option
     public static final String MAINMENU_BASICMATH = "1";
         //Sub Menus for MAINMENU_BASICMATH
         public static final String SUBMENU_SIMPLEMATH = "1.1";
             //Options for SUBMENU_SIMPLEMATH
-            public static final String BM_SMSM_ADDITION = "A";
-            public static final String BM_SMSM_SUBTRACTION = "B";
-            public static final String BM_SMSM_MULTIPLICATION = "C";
-            public static final String BM_SMSM_DIVISION = "D";
+            public static final String BM_SMSM_ADDITION = "1.1a";
+            public static final String BM_SMSM_SUBTRACTION = "1.1b";
+            public static final String BM_SMSM_MULTIPLICATION = "1.1c";
+            public static final String BM_SMSM_DIVISION = "1.1d";
         public static final String SUBMENU_FRACTIONS = "1.2";
-            public static final String BM_SMFR_ADDFRACS = "E";
-            public static final String BM_SMFR_SUBFRACS = "F";
-            public static final String BM_SMFR_MULTIFRACS = "G";
-            public static final String BM_SMFR_DIVIDEFRACS = "H";
-            public static final String BM_SMFR_REDUCEFRAC = "I";
-            public static final String BM_SMFR_CONVERTTOMIXED = "J";
-            public static final String BM_SMFR_CONVERTTOIMPROPER = "K";
+            //Options for SUBMENU_FRACTIONS
+            public static final String BM_SMFR_ADDFRACS = "1.2a";
+            public static final String BM_SMFR_SUBFRACS = "1.2b";
+            public static final String BM_SMFR_MULTIFRACS = "1.2c";
+            public static final String BM_SMFR_DIVIDEFRACS = "1.2d";
+            public static final String BM_SMFR_REDUCEFRAC = "1.2e";
+            public static final String BM_SMFR_CONVERTTOMIXED = "1.2f";
+            public static final String BM_SMFR_CONVERTTOIMPROPER = "1.2g";
         public static final String SUBMENU_DECIMALS = "1.3";
-            public static final String BM_SMDC_ROUNDUP = "L";
-            public static final String BM_SMDC_ROUNDDOWN = "M";
+            //Options for SUBMENU_DECIMALS
+            public static final String BM_SMDC_ROUNDUP = "1.3a";
+            public static final String BM_SMDC_ROUNDDOWN = "1.3b";
         public static final String SUBMENU_PERCENTS = "1.4";
+            //Options for SUBMENU_PERCENTS
+            public static final String BM_SMPR_CALCPERCENT = "1.4a";
         public static final String SUBMENU_RADICALS = "1.5";
+            //Options for SUBMENU_RADICALS
+            public static final String BM_SMRD_SQUAREROOT = "1.5a";
+            public static final String BM_SMRD_CUBEROOT = "1.5b";
+            public static final String BM_SMRD_CUSTOMROOT = "1.5c";
         public static final String SUBMENU_EXPONENTS = "1.6";
+            //Options for SUBMENU_EXPONENTS
+            public static final String BM_SMEX_SQUARED = "1.6a";
+            public static final String BM_SMEX_CUBED = "1.6b";
+            public static final String BM_SMEX_CUSTOMEXPONENT = "1.6c";
 
+    //Main Menu Option
     public static final String MAINMENU_AREA = "2";
+        //Sub Menus for MAINMENU_AREA
+        
+
+
+
     public static final String MAINMENU_VOLUME = "3";
     public static final String MAINMENU_EXPONENT = "4";
     public static final String MAINMENU_EXIT = "X";
@@ -206,11 +225,11 @@ public class wunderCalUI {
 
         HashMap<String, String> formulas = new HashMap<String, String>();
 
-        //BASICMATH formulas
-        formulas.put(BASICMATH_ADDITION, "x + y");
-        formulas.put(BASICMATH_SUBTRACTION, "x - y");
-        formulas.put(BASICMATH_MULTIPLICATION, "x * y");
-        formulas.put(BASICMATH_DIVISION, "x / y");
+        //BASICMATH/SIMPLEMATH formulas
+        formulas.put(BM_SMSM_ADDITION, "x + y");
+        formulas.put(BM_SMSM_SUBTRACTION, "x - y");
+        formulas.put(BM_SMSM_MULTIPLICATION, "x * y");
+        formulas.put(BM_SMSM_DIVISION, "x / y");
 
         //AREA formulas
         formulas.put(AREAMENU_SQUARE, "s^2");
@@ -303,7 +322,7 @@ public class wunderCalUI {
             case MENU_BACK:
                 nextMenu = MAINMENU;
                 break;
-            case BASICMATH_ADDITION:
+            case BM_SMSM_ADDITION:
                 System.out.print("First number: ");
                 num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
@@ -311,7 +330,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.additionFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case BASICMATH_SUBTRACTION:
+            case BM_SMSM_SUBTRACTION:
                 System.out.print("First number: ");
                 num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
@@ -319,7 +338,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.subtractionFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case BASICMATH_MULTIPLICATION:
+            case BM_SMSM_MULTIPLICATION:
                 System.out.print("First number: ");
                 num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
@@ -327,7 +346,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.multiplicationFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case BASICMATH_DIVISION:
+            case BM_SMSM_DIVISION:
                 System.out.print("First number: ");
                 num1 = userInputStringToDouble();
                 System.out.print("Second number: ");
