@@ -131,10 +131,12 @@ public class wunderCalUI {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
-        System.out.println("1.1 Addition");
-        System.out.println("1.2 Subtraction");
-        System.out.println("1.3 Multiplication");
-        System.out.println("1.4 Division");
+        System.out.println("1.1 Simple Math");
+        System.out.println("1.2 Fractions");
+        System.out.println("1.3 Decimals");
+        System.out.println("1.4 Percents");
+        System.out.println("1.5 Radicals");
+        System.out.println("1.6 Exponents");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -201,9 +203,6 @@ public class wunderCalUI {
             case VOLUMEMENU:
                 displayVolumeMenu();
                 break;
-            case EXPONENTMENU:
-                displayExponentMenu();
-                break;
         }
 
     }
@@ -235,11 +234,21 @@ public class wunderCalUI {
 
         HashMap<String, String> formulas = new HashMap<String, String>();
 
-        //BASICMATH/SIMPLEMATH formulas
+        //SUBMENU_SIMPLEMATH formulas
         formulas.put(BM_SMSM_ADDITION, "x + y");
         formulas.put(BM_SMSM_SUBTRACTION, "x - y");
         formulas.put(BM_SMSM_MULTIPLICATION, "x * y");
         formulas.put(BM_SMSM_DIVISION, "x / y");
+
+        //SUBMENU_FRACTIONS
+
+        //SUBMENU_DECIMALS
+
+        //SUBMENU_PERCENTS
+
+        //SUBMENU_RADICALS
+
+        //SUBMENU_EXPONENTS
 
         //AREA formulas
         formulas.put(AR_SQUARE, "s^2");
@@ -250,17 +259,17 @@ public class wunderCalUI {
         formulas.put(AR_CIRCLE, "(r^2) * PI");
 
         //VOLUME formulas
-        formulas.put(VOLUMEMENU_CUBE, "s^3");
-        formulas.put(VOLUMEMENU_RECTANGULARPRISM, "l * w * h");
-        formulas.put(VOLUMEMENU_PYRAMID, "(b * h) /3");
-        formulas.put(VOLUMEMENU_CYLINDER, "((r^2) * h) * PI");
-        formulas.put(VOLUMEMENU_CONE, "(((r^2) * h) * PI) / 3");
-        formulas.put(VOLUMEMENU_SPHERE, "((r^3) * PI) * (4/3)");
+        formulas.put(VM_CUBE, "s^3");
+        formulas.put(VM_RECTANGULARPRISM, "l * w * h");
+        formulas.put(VM_PYRAMID, "(b * h) /3");
+        formulas.put(VM_CYLINDER, "((r^2) * h) * PI");
+        formulas.put(VM_CONE, "(((r^2) * h) * PI) / 3");
+        formulas.put(VM_SPHERE, "((r^3) * PI) * (4/3)");
 
-        //EXPONENT formulas
+        /* EXPONENT formulas
         formulas.put(EXPONENTMENU_SQUARED, "x^2");
         formulas.put(EXPONENTMENU_CUBED, "x^3");
-        formulas.put(EXPONENTMENU_CHOOSE, "x^x");
+        formulas.put(EXPONENTMENU_CHOOSE, "x^x"); */
 
         System.out.println(formulas.get(key) + "\n");
 
@@ -286,9 +295,6 @@ public class wunderCalUI {
             case VOLUMEMENU:
                 currentMenu = processVolumeMenu(userInput);
                 break;
-            case EXPONENTMENU:
-                currentMenu = processExponentMenu(userInput);
-                break;
         }
 
         return currentMenu;
@@ -309,9 +315,6 @@ public class wunderCalUI {
                 break;
             case MAINMENU_VOLUME:
                 nextMenu = VOLUMEMENU;
-                break;
-            case MAINMENU_EXPONENT:
-                nextMenu = EXPONENTMENU;
                 break;
             case MAINMENU_EXIT:
                 nextMenu = EXITMENU;
@@ -552,7 +555,7 @@ public class wunderCalUI {
     }
 
     //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
-    public static Integer processExponentMenu(String userInput) {
+    /*public static Integer processExponentMenu(String userInput) {
 
         int nextMenu = EXPONENTMENU;
         double num, customPower, result;
@@ -595,6 +598,6 @@ public class wunderCalUI {
 
         return nextMenu;
 
-    }
+    }*/
 
 }
