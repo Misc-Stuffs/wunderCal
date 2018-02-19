@@ -25,6 +25,12 @@ public class wunderCalLogic {
 
     }
 
+    public static double addFractions() {
+
+        return
+
+    }
+
     //AREA functions
     public static double squareAreaFunction(double side) {
 
