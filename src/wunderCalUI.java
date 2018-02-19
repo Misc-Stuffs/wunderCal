@@ -42,36 +42,47 @@ public class wunderCalUI {
 
     //Main Menu Option
     public static final String MAINMENU_AREA = "2";
-        //Sub Menus for MAINMENU_AREA
+        //Options for MAINMENU_AREA
+        public static final String AR_SQUARE = "2.1";
+        public static final String AR_RECTANGLE = "2.2";
+        public static final String AR_TRIANGLE = "2.3";
+        public static final String AR_PARALLELOGRAM = "2.4";
+        public static final String AR_TRAPEZOID = "2.5";
+        public static final String AR_CIRCLE = "2.6";
 
-
-
-
+    //Main Menu Option
     public static final String MAINMENU_VOLUME = "3";
-    public static final String MAINMENU_EXPONENT = "4";
+        //Options for MAINMENU_VOLUME
+        public static final String VM_CUBE = "3.1";
+        public static final String VM_RECTANGULARPRISM = "3.2";
+        public static final String VM_PYRAMID = "3.3";
+        public static final String VM_CYLINDER = "3.4";
+        public static final String VM_CONE = "3.5";
+        public static final String VM_SPHERE = "3.6";
+
     public static final String MAINMENU_EXIT = "X";
     public static final String MENU_BACK = "B";
 
-    //User Input for AREAMENU
+    /* OLD User Input for AREAMENU
     public static final String AREAMENU_SQUARE = "2.1";
     public static final String AREAMENU_RECTANGLE = "2.2";
     public static final String AREAMENU_TRIANGLE = "2.3";
     public static final String AREAMENU_PARALLELOGRAM = "2.4";
     public static final String AREAMENU_TRAPEZOID = "2.5";
-    public static final String AREAMENU_CIRCLE = "2.6";
+    public static final String AREAMENU_CIRCLE = "2.6"; */
 
-    //User Input for VOLUMEMENU
+    /* OLD User Input for VOLUMEMENU
     public static final String VOLUMEMENU_CUBE = "3.1";
     public static final String VOLUMEMENU_RECTANGULARPRISM = "3.2";
     public static final String VOLUMEMENU_PYRAMID = "3.3";
     public static final String VOLUMEMENU_CYLINDER = "3.4";
     public static final String VOLUMEMENU_CONE = "3.5";
-    public static final String VOLUMEMENU_SPHERE = "3.6";
+    public static final String VOLUMEMENU_SPHERE = "3.6"; */
 
-    //User Input for EXPONENTMENU
+    /* OLD User Input for EXPONENTMENU
     public static final String EXPONENTMENU_SQUARED = "4.1";
     public static final String EXPONENTMENU_CUBED = "4.2";
-    public static final String EXPONENTMENU_CHOOSE = "4.3";
+    public static final String EXPONENTMENU_CHOOSE = "4.3"; */
 
     //Tracking Current Menu
     public static final int EXITMENU = -1;
@@ -79,7 +90,6 @@ public class wunderCalUI {
     public static final int BASICMATHMENU = 2;
     public static final int AREAMENU = 3;
     public static final int VOLUMEMENU = 4;
-    public static final int EXPONENTMENU = 5;
 
     //Runs the console UI
     public static void runUI() {
@@ -232,12 +242,12 @@ public class wunderCalUI {
         formulas.put(BM_SMSM_DIVISION, "x / y");
 
         //AREA formulas
-        formulas.put(AREAMENU_SQUARE, "s^2");
-        formulas.put(AREAMENU_RECTANGLE, "b * h");
-        formulas.put(AREAMENU_TRIANGLE, "(b * h) / 2");
-        formulas.put(AREAMENU_PARALLELOGRAM, "b * h");
-        formulas.put(AREAMENU_TRAPEZOID, "((b1 + b2) * h) / 2");
-        formulas.put(AREAMENU_CIRCLE, "(r^2) * PI");
+        formulas.put(AR_SQUARE, "s^2");
+        formulas.put(AR_RECTANGLE, "b * h");
+        formulas.put(AR_TRIANGLE, "(b * h) / 2");
+        formulas.put(AR_PARALLELOGRAM, "b * h");
+        formulas.put(AR_TRAPEZOID, "((b1 + b2) * h) / 2");
+        formulas.put(AR_CIRCLE, "(r^2) * PI");
 
         //VOLUME formulas
         formulas.put(VOLUMEMENU_CUBE, "s^3");
@@ -380,13 +390,13 @@ public class wunderCalUI {
             case MENU_BACK:
                 nextMenu = MAINMENU;
                 break;
-            case AREAMENU_SQUARE:
+            case AR_SQUARE:
                 System.out.print("Side length: ");
                 side = userInputStringToDouble();
                 result = wunderCalLogic.squareAreaFunction(side);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case AREAMENU_RECTANGLE:
+            case AR_RECTANGLE:
                 System.out.print("Base: ");
                 base = userInputStringToDouble();
                 System.out.print("Height: ");
@@ -394,7 +404,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.rectangleAreaFunction(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case AREAMENU_TRIANGLE:
+            case AR_TRIANGLE:
                 System.out.print("Base: ");
                 base = userInputStringToDouble();
                 System.out.print("Height: ");
@@ -402,7 +412,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.triangleAreaFunction(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case AREAMENU_PARALLELOGRAM:
+            case AR_PARALLELOGRAM:
                 System.out.print("Base: ");
                 base = userInputStringToDouble();
                 System.out.print("Height: ");
@@ -410,7 +420,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.parallelogramAreaFunction(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case AREAMENU_TRAPEZOID:
+            case AR_TRAPEZOID:
                 System.out.print("Height: ");
                 height = userInputStringToDouble();
                 System.out.print("Base 1: ");
@@ -420,7 +430,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.trapezoidAreaFunction(height, base, base2);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case AREAMENU_CIRCLE:
+            case AR_CIRCLE:
                 System.out.print("Radius: ");
                 radius = userInputStringToDouble();
                 result = wunderCalLogic.circleAreaFunction(radius);
