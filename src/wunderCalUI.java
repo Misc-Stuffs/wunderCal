@@ -63,27 +63,6 @@ public class wunderCalUI {
     public static final String MAINMENU_EXIT = "X";
     public static final String MENU_BACK = "B";
 
-    /* OLD User Input for AREAMENU
-    public static final String AREAMENU_SQUARE = "2.1";
-    public static final String AREAMENU_RECTANGLE = "2.2";
-    public static final String AREAMENU_TRIANGLE = "2.3";
-    public static final String AREAMENU_PARALLELOGRAM = "2.4";
-    public static final String AREAMENU_TRAPEZOID = "2.5";
-    public static final String AREAMENU_CIRCLE = "2.6"; */
-
-    /* OLD User Input for VOLUMEMENU
-    public static final String VOLUMEMENU_CUBE = "3.1";
-    public static final String VOLUMEMENU_RECTANGULARPRISM = "3.2";
-    public static final String VOLUMEMENU_PYRAMID = "3.3";
-    public static final String VOLUMEMENU_CYLINDER = "3.4";
-    public static final String VOLUMEMENU_CONE = "3.5";
-    public static final String VOLUMEMENU_SPHERE = "3.6"; */
-
-    /* OLD User Input for EXPONENTMENU
-    public static final String EXPONENTMENU_SQUARED = "4.1";
-    public static final String EXPONENTMENU_CUBED = "4.2";
-    public static final String EXPONENTMENU_CHOOSE = "4.3"; */
-
     //Tracking Current Menu
     public static final int EXITMENU = -1;
     public static final int MAINMENU = 1;
@@ -127,7 +106,7 @@ public class wunderCalUI {
     }
 
     //displays the Basicmath Menu in the console for the user
-    public static void displayBasicMathMenu() {
+    public static void displayBasicMathMainMenu() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -137,6 +116,80 @@ public class wunderCalUI {
         System.out.println("1.4 Percents");
         System.out.println("1.5 Radicals");
         System.out.println("1.6 Exponents");
+
+        System.out.println("\nB. Back to previous menu");
+
+    }
+
+    public static void displaySimpleMathSubMenu() {
+
+        System.out.println("Please choose an option and select the number that corresponds to your selection.");
+
+        System.out.println("1.1a Addition");
+        System.out.println("1.1b Subtraction");
+        System.out.println("1.1c Multiplication");
+        System.out.println("1.1d Division");
+
+        System.out.println("\nB. Back to previous menu");
+
+    }
+
+    public static void displayFractionsSubMenu() {
+
+        System.out.println("Please choose an option and select the number that corresponds to your selection.");
+
+        System.out.println("1.2a Add Fractions");
+        System.out.println("1.2b Subtract Fractions");
+        System.out.println("1.2c Multiply Fractions");
+        System.out.println("1.2d Divide Fractions");
+        System.out.println("1.2e Reduce Fraction");
+        System.out.println("1.2f Convert to Mixed Number");
+        System.out.println("1.2g Convert to Improper Fraction");
+
+        System.out.println("\nB. Back to previous menu");
+
+    }
+
+    public static void displayDecimalsSubMenu() {
+
+        System.out.println("Please choose an option and select the number that corresponds to your selection.");
+
+        System.out.println("1.3a Round Up");
+        System.out.println("1.3b Round Down");
+
+        System.out.println("\nB. Back to previous menu");
+
+    }
+
+    public static void displayPercentsSubMenu() {
+
+        System.out.println("Please choose an option and select the number that corresponds to your selection.");
+
+        System.out.println("1.4a Calculate Percent");
+
+        System.out.println("\nB. Back to previous menu");
+
+    }
+
+    public static void displayRadicalsSubMenu() {
+
+        System.out.println("Please choose an option and select the number that corresponds to your selection.");
+
+        System.out.println("1.5a Square Root of X");
+        System.out.println("1.5b Cube Root of X");
+        System.out.println("1.5c Custom Root of X");
+
+        System.out.println("\nB. Back to previous menu");
+
+    }
+
+    public static void displayExponentsSubMenu() {
+
+        System.out.println("Please choose an option and select the number that corresponds to your selection.");
+
+        System.out.println("1.6a X Squared");
+        System.out.println("1.6b X Cubed");
+        System.out.println("1.6c X to a Custom Power");
 
         System.out.println("\nB. Back to previous menu");
 
@@ -174,19 +227,6 @@ public class wunderCalUI {
 
     }
 
-    //displays the Exponent Menu in the console for the user
-    public static void displayExponentMenu() {
-
-        System.out.println("Please choose an option and select the number that corresponds to your selection.");
-
-        System.out.println("4.1 Squared");
-        System.out.println("4.2 Cubed");
-        System.out.println("4.3 Choose your own power");
-
-        System.out.println("\nB. Back to previous menu");
-
-    }
-
     //takes in the currentMenu variable from runUI and uses that number to select and display the menu that corresponds to the selected number
     public static void displayMenu(int currentMenu) {
 
@@ -195,7 +235,7 @@ public class wunderCalUI {
                 displayMainMenu();
                 break;
             case BASICMATHMENU:
-                displayBasicMathMenu();
+                displayBasicMathMainMenu();
                 break;
             case AREAMENU:
                 displayAreaMenu();
@@ -466,13 +506,13 @@ public class wunderCalUI {
             case MENU_BACK:
                 nextMenu = MAINMENU;
                 break;
-            case VOLUMEMENU_CUBE:
+            case VM_CUBE:
                 System.out.print("Side length: ");
                 side = userInputStringToDouble();
                 result = wunderCalLogic.cubeVolume(side);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case VOLUMEMENU_RECTANGULARPRISM:
+            case VM_RECTANGULARPRISM:
                 System.out.print("Length: ");
                 length = userInputStringToDouble();
                 System.out.print("Width: ");
@@ -482,7 +522,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.rectangularPrismVolume(length, width, height);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case VOLUMEMENU_PYRAMID:
+            case VM_PYRAMID:
                 System.out.print("Base: ");
                 base = userInputStringToDouble();
                 System.out.print("Height: ");
@@ -490,7 +530,7 @@ public class wunderCalUI {
                 result = wunderCalLogic.pyramidVolume(base, height);
                 System.out.println("Result: " + result + "\n");
                 break;
-            case VOLUMEMENU_CYLINDER:
+            case VM_CYLINDER:
                 System.out.print("Do you have the base of the Cylinder calculated? (Y/N): ");
                 baseAnswer = readUserInput();
 
@@ -511,7 +551,7 @@ public class wunderCalUI {
                 }
 
                 break;
-            case VOLUMEMENU_CONE:
+            case VM_CONE:
                 System.out.print("Do you have the base of the Cone calculated (Y/N): ");
                 baseAnswer = readUserInput();
 
@@ -532,7 +572,7 @@ public class wunderCalUI {
                 }
 
                 break;
-            case VOLUMEMENU_SPHERE:
+            case VM_SPHERE:
                 System.out.print("Radius: ");
                 radius = userInputStringToDouble();
                 result = wunderCalLogic.sphereVolume(radius);
