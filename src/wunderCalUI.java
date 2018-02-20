@@ -67,8 +67,14 @@ public class wunderCalUI {
     public static final int EXITMENU = -1;
     public static final int MAINMENU = 1;
     public static final int BASICMATHMENU = 2;
-    public static final int AREAMENU = 3;
-    public static final int VOLUMEMENU = 4;
+    public static final int SIMPLEMATHSUBMENU = 3;
+    public static final int FRACTIONSSUBMENU = 4;
+    public static final int DECIMALSSUBMENU = 5;
+    public static final int PERCENTSSUBMENU = 6;
+    public static final int RADICALSSUBMENU = 7;
+    public static final int EXPONENTSSUBMENU = 8;
+    public static final int AREAMENU = 9;
+    public static final int VOLUMEMENU = 10;
 
     //Runs the console UI
     public static void runUI() {
@@ -79,9 +85,13 @@ public class wunderCalUI {
         String userInput = "";
 
         while(continueRunning == true) {
-            displayMenu(currentMenu);
+            displayMainMenus(currentMenu);
 
             userInput = readUserInput();
+
+            /* if(currentMenu == 3) {
+                displayBasicMathMenuSubMenus(currentMenu);
+            } */
 
             currentMenu = processUserInput(currentMenu, userInput);
 
@@ -92,7 +102,7 @@ public class wunderCalUI {
     }
 
     //displays the Main Menu in the console for the user
-    public static void displayMainMenu() {
+    public static void displayMainMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -106,7 +116,7 @@ public class wunderCalUI {
     }
 
     //displays the Basicmath Menu in the console for the user
-    public static void displayBasicMathMainMenu() {
+    public static void displayBasicMathMainMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -121,7 +131,8 @@ public class wunderCalUI {
 
     }
 
-    public static void displaySimpleMathSubMenu() {
+    //displays the Simplemath Sub Menus in the console for the user
+    public static void displaySimpleMathSubMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -134,7 +145,8 @@ public class wunderCalUI {
 
     }
 
-    public static void displayFractionsSubMenu() {
+    //displays the Fractions Sub Menus in the console for the user
+    public static void displayFractionsSubMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -150,7 +162,8 @@ public class wunderCalUI {
 
     }
 
-    public static void displayDecimalsSubMenu() {
+    //displays the Decimals Sub Menus in the console for the user
+    public static void displayDecimalsSubMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -161,7 +174,8 @@ public class wunderCalUI {
 
     }
 
-    public static void displayPercentsSubMenu() {
+    //displays the Percents Sub Menus in the console for the user
+    public static void displayPercentsSubMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -171,7 +185,8 @@ public class wunderCalUI {
 
     }
 
-    public static void displayRadicalsSubMenu() {
+    //displays the Radicals Sub Menus in the console for the user
+    public static void displayRadicalsSubMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -183,7 +198,8 @@ public class wunderCalUI {
 
     }
 
-    public static void displayExponentsSubMenu() {
+    //displays the Exponents Sub Menus in the console for the user
+    public static void displayExponentsSubMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -196,7 +212,7 @@ public class wunderCalUI {
     }
 
     //displays the Area Menu in the console for the user
-    public static void displayAreaMenu() {
+    public static void displayAreaMenuToUser() {
 
         System.out.println("Please choose an option and select the number the corresponds to your selection.");
 
@@ -212,7 +228,7 @@ public class wunderCalUI {
     }
 
     //displays the Volume Menu in the console for the user
-    public static void displayVolumeMenu() {
+    public static void displayVolumeMenuToUser() {
 
         System.out.println("Please choose an option and select the number that corresponds to your selection.");
 
@@ -228,20 +244,46 @@ public class wunderCalUI {
     }
 
     //takes in the currentMenu variable from runUI and uses that number to select and display the menu that corresponds to the selected number
-    public static void displayMenu(int currentMenu) {
+    public static void displayMainMenus(int currentMenu) {
 
         switch(currentMenu) {
             case MAINMENU:
-                displayMainMenu();
+                displayMainMenuToUser();
                 break;
             case BASICMATHMENU:
-                displayBasicMathMainMenu();
+                displayBasicMathMainMenuToUser();
                 break;
             case AREAMENU:
-                displayAreaMenu();
+                displayAreaMenuToUser();
                 break;
             case VOLUMEMENU:
-                displayVolumeMenu();
+                displayVolumeMenuToUser();
+                break;
+        }
+
+    }
+
+    //takes in the currentMenu variable from runUI and uses that number to select and display the menu that corresponds to the selected number
+    public static void displayBasicMathMenuSubMenus(int currentMenu) {
+
+        switch(currentMenu) {
+            case SIMPLEMATHSUBMENU:
+                displaySimpleMathSubMenuToUser();
+                break;
+            case FRACTIONSSUBMENU:
+                displayFractionsSubMenuToUser();
+                break;
+            case DECIMALSSUBMENU:
+                displayDecimalsSubMenuToUser();
+                break;
+            case PERCENTSSUBMENU:
+                displayPercentsSubMenuToUser();
+                break;
+            case RADICALSSUBMENU:
+                displayRadicalsSubMenuToUser();
+                break;
+            case EXPONENTSSUBMENU:
+                displayExponentsSubMenuToUser();
                 break;
         }
 
@@ -329,6 +371,9 @@ public class wunderCalUI {
             case BASICMATHMENU:
                 currentMenu = processBasicMathMenu(userInput);
                 break;
+            case SIMPLEMATHSUBMENU:
+                currentMenu = processSimpleMathSubMenu(userInput);
+                break;
             case AREAMENU:
                 currentMenu = processAreaMenu(userInput);
                 break;
@@ -367,6 +412,35 @@ public class wunderCalUI {
 
     //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processBasicMathMenu(String userInput) {
+
+        int nextMenu = BASICMATHMENU;
+
+        switch(userInput) {
+            case SUBMENU_SIMPLEMATH:
+                nextMenu = SIMPLEMATHSUBMENU;
+                break;
+            case SUBMENU_FRACTIONS:
+                nextMenu = FRACTIONSSUBMENU;
+                break;
+            case SUBMENU_DECIMALS:
+                nextMenu = DECIMALSSUBMENU;
+                break;
+            case SUBMENU_PERCENTS:
+                nextMenu = PERCENTSSUBMENU;
+                break;
+            case SUBMENU_RADICALS:
+                nextMenu = RADICALSSUBMENU;
+                break;
+            case SUBMENU_EXPONENTS:
+                nextMenu = EXPONENTSSUBMENU;
+                break;
+        }
+
+        return nextMenu;
+
+    }
+
+    public static Integer processSimpleMathSubMenu(String userInput) {
 
         int nextMenu = BASICMATHMENU;
         double num1, num2, result;
