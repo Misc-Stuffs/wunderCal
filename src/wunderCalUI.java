@@ -89,10 +89,6 @@ public class wunderCalUI {
 
             userInput = readUserInput();
 
-            /* if(currentMenu == 3) {
-                displayBasicMathMenuSubMenus(currentMenu);
-            } */
-
             currentMenu = processUserInput(currentMenu, userInput);
 
             if(currentMenu == -1)
@@ -253,6 +249,24 @@ public class wunderCalUI {
             case BASICMATHMENU:
                 displayBasicMathMainMenuToUser();
                 break;
+            case SIMPLEMATHSUBMENU:
+                displaySimpleMathSubMenuToUser();
+                break;
+            case FRACTIONSSUBMENU:
+                displayFractionsSubMenuToUser();
+                break;
+            case DECIMALSSUBMENU:
+                displayDecimalsSubMenuToUser();
+                break;
+            case PERCENTSSUBMENU:
+                displayPercentsSubMenuToUser();
+                break;
+            case RADICALSSUBMENU:
+                displayRadicalsSubMenuToUser();
+                break;
+            case EXPONENTSSUBMENU:
+                displayExponentsSubMenuToUser();
+                break;
             case AREAMENU:
                 displayAreaMenuToUser();
                 break;
@@ -264,7 +278,7 @@ public class wunderCalUI {
     }
 
     //takes in the currentMenu variable from runUI and uses that number to select and display the menu that corresponds to the selected number
-    public static void displayBasicMathMenuSubMenus(int currentMenu) {
+    /* public static void displayBasicMathMenuSubMenus(int currentMenu) {
 
         switch(currentMenu) {
             case SIMPLEMATHSUBMENU:
@@ -287,7 +301,7 @@ public class wunderCalUI {
                 break;
         }
 
-    }
+    } */
 
     //reads the users input, stores it in a String userInput and returns it (always capitalized)
     public static String readUserInput() {
