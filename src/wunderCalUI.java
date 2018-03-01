@@ -105,7 +105,6 @@ public class wunderCalUI {
         System.out.println("1. Basic Math");
         System.out.println("2. Area");
         System.out.println("3. Volume");
-        System.out.println("4. Exponent");
 
         System.out.println("\nX. Exit Application");
 
