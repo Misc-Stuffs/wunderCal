@@ -547,15 +547,23 @@ public class wunderCalUI {
     public static Integer processDecimalsSubMenuFunctions(String userInput) {
 
         int nextMenu = DECIMALSSUBMENU;
-        double num1, num2, result;
+        double num, result;
 
         switch(userInput) {
             case MENU_BACK:
                 nextMenu = MAINMENU;
                 break;
             case BM_SMDC_ROUNDUP:
+                System.out.print("Decimal: ");
+                num = userInputStringToDouble();
+                result = wunderCalLogic.roundDecimalUp(num);
+                System.out.println("Result: " + result + "\n");
                 break;
             case BM_SMDC_ROUNDDOWN:
+                System.out.print("Decimal: ");
+                num = userInputStringToDouble();
+                result = wunderCalLogic.roundDecimalDown(num);
+                System.out.println("Result: " + result + "\n");
                 break;
         }
 

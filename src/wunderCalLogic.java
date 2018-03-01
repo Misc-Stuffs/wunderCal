@@ -80,17 +80,17 @@ public class wunderCalLogic {
 
     //DECIMALSSUBMENU functions
 
-    //OUTLINED ONLY!
-    public static double roundDecimalUp() {
+    //BASIC FUNCTIONALITY! need to rework in future
+    public static double roundDecimalUp(double num) {
 
-        return 0; //added for compiling
+        return Math.ceil(num);
 
     }
 
-    //OUTLINED ONLY!
-    public static double roundDecimalDown() {
+    //BASIC FUNCTIONALITY! need to rework in future
+    public static double roundDecimalDown(double num) {
 
-        return 0; //added for compiling
+        return Math.floor(num);
 
     }
 
