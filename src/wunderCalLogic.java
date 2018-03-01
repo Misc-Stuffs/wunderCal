@@ -1,6 +1,8 @@
 public class wunderCalLogic {
 
     //BASICMATH functions
+
+    //SIMPLEMATHSUBMENU functions
     public static double additionFunction(double num1, double num2) {
 
         return num1 + num2;
@@ -24,6 +26,8 @@ public class wunderCalLogic {
         return num1 / num2;
 
     }
+
+    //FRACTIONSSUBMENU functions
 
     //OUTLINED ONLY!
     public static double addFractions() {
@@ -69,6 +73,22 @@ public class wunderCalLogic {
 
     //OUTLINED ONLY
     public static double convertToImproperFraction() {
+
+        return 0; //added for compiling
+
+    }
+
+    //DECIMALSSUBMENU functions
+
+    //OUTLINED ONLY!
+    public static double roundDecimalUp() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double roundDecimalDown() {
 
         return 0; //added for compiling
 

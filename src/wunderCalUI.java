@@ -532,6 +532,36 @@ public class wunderCalUI {
 
     }
 
+    //OUTLINED ONLY! takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
+    public static Integer processDecimalsSubMenuFunctions(String userInput) {
+
+        int nextMenu = DECIMALSSUBMENU;
+        double num1, num2, result;
+
+        switch(userInput) {
+            case MENU_BACK:
+                nextMenu = MAINMENU;
+                break;
+            case BM_SMDC_ROUNDUP:
+                break;
+            case BM_SMDC_ROUNDDOWN:
+                break;
+        }
+
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
+
+        return nextMenu;
+
+    }
+
     //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processAreaMenuFunctions(String userInput) {
 
