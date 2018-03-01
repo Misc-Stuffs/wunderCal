@@ -365,6 +365,9 @@ public class wunderCalUI {
             case FRACTIONSSUBMENU:
                 currentMenu = processFractionsSubMenuFunctions(userInput);
                 break;
+            case DECIMALSSUBMENU:
+                currentMenu = processDecimalsSubMenuFunctions(userInput);
+                break;
             case AREAMENU:
                 currentMenu = processAreaMenuFunctions(userInput);
                 break;
