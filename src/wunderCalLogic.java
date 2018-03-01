@@ -94,6 +94,38 @@ public class wunderCalLogic {
 
     }
 
+    //PERCENTSUBMENU functions
+
+    //OUTLINED ONLY!
+    public static double calculatePercent() {
+
+        return 0; //added for compiling
+
+    }
+
+    //RADICALSSUBMENU functions
+
+    //OUTLINED ONLY!
+    public static double squareRoot() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double cubeRoot() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double customRoot() {
+
+        return 0; //added for compiling
+
+    }
+
     //AREA functions
     public static double squareAreaFunction(double side) {
 

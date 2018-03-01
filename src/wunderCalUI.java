@@ -367,6 +367,12 @@ public class wunderCalUI {
             case DECIMALSSUBMENU:
                 currentMenu = processDecimalsSubMenuFunctions(userInput);
                 break;
+            case PERCENTSSUBMENU:
+                currentMenu = processPercentsSubMenuFunctions(userInput);
+                break;
+            case RADICALSSUBMENU:
+                currentMenu = processRadicalsSubMenuFunctions(userInput);
+                break;
             case AREAMENU:
                 currentMenu = processAreaMenuFunctions(userInput);
                 break;
@@ -547,6 +553,66 @@ public class wunderCalUI {
             case BM_SMDC_ROUNDUP:
                 break;
             case BM_SMDC_ROUNDDOWN:
+                break;
+        }
+
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
+
+        return nextMenu;
+
+    }
+
+    //OUTLINED ONLY! takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
+    public static Integer processPercentsSubMenuFunctions(String userInput) {
+
+        int nextMenu = PERCENTSSUBMENU;
+        double num1, num2, result;
+
+        switch(userInput) {
+            case MENU_BACK:
+                nextMenu = MAINMENU;
+                break;
+            case BM_SMPR_CALCPERCENT:
+                break;
+        }
+
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
+
+        return nextMenu;
+
+    }
+
+    //OUTLINED ONLY! takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
+    public static Integer processRadicalsSubMenuFunctions(String userInput) {
+
+        int nextMenu = RADICALSSUBMENU;
+        double num1, num2, result;
+
+        switch(userInput) {
+            case MENU_BACK:
+                nextMenu = MAINMENU;
+                break;
+            case BM_SMRD_SQUAREROOT:
+                break;
+            case BM_SMRD_CUBEROOT:
+                break;
+            case BM_SMRD_CUSTOMROOT:
                 break;
         }
 
