@@ -128,24 +128,21 @@ public class wunderCalLogic {
 
     //EXPONENTSSUBMENU functions
 
-    //OUTLINED ONLY!
-    public static double squareNumber() {
+    public static double squareNumber(double num) {
 
-        return 0; //added for compiling
-
-    }
-
-    //OUTLINED ONLY!
-    public static double cubeNumber() {
-
-        return 0; //added for compiling
+        return Math.pow(num, 2);
 
     }
 
-    //OUTLINED ONLY!
-    public static double customPower() {
+    public static double cubeNumber(double num) {
 
-        return 0; //added for compiling
+        return Math.pow(num, 3);
+
+    }
+
+    public static double customPower(double num, double customPower) {
+
+        return Math.pow(num, customPower);
 
     }
 

@@ -637,17 +637,31 @@ public class wunderCalUI {
     public static Integer processExponentsSubMenuFunctions(String userInput) {
 
         int nextMenu = EXPONENTSSUBMENU;
-        double num1, num2, result;
+        double num, customPower, result;
 
         switch(userInput) {
             case MENU_BACK:
-                nextMenu = MAINMENU;
+                nextMenu = BASICMATHMENU;
                 break;
             case BM_SMEX_SQUARED:
+                System.out.print("Number: ");
+                num = userInputStringToDouble();
+                result = wunderCalLogic.squareNumber(num);
+                System.out.println("Result: " + result + "\n");
                 break;
             case BM_SMEX_CUBED:
+                System.out.print("Number: ");
+                num = userInputStringToDouble();
+                result = wunderCalLogic.cubeNumber(num);
+                System.out.println("Result: " + result + "\n");
                 break;
             case BM_SMEX_CUSTOMEXPONENT:
+                System.out.print("Number: ");
+                num = userInputStringToDouble();
+                System.out.print("Power: ");
+                customPower = userInputStringToDouble();
+                result = wunderCalLogic.customPower(num, customPower);
+                System.out.println("Result: " + result + "\n");
                 break;
         }
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/wunderCalLogic.java" afterPath="$PROJECT_DIR$/src/wunderCalLogic.java" />
       <change beforePath="$PROJECT_DIR$/src/wunderCalUI.java" afterPath="$PROJECT_DIR$/src/wunderCalUI.java" />
     </list>
@@ -23,7 +24,7 @@
           <file leaf-file-name="wunderCal.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-9">
+                <state relative-caret-position="144">
                   <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
@@ -33,7 +34,7 @@
           <file leaf-file-name="wunderCalUI.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="887">
+                <state relative-caret-position="563">
                   <caret line="636" column="77" lean-forward="false" selection-start-line="636" selection-start-column="77" selection-end-line="636" selection-end-column="77" />
                   <folding>
                     <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
@@ -102,8 +103,8 @@
           <file leaf-file-name="wunderCalLogic.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="717">
-                  <caret line="145" column="39" lean-forward="false" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
+                <state relative-caret-position="527">
+                  <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
                   <folding>
                     <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -122,9 +123,6 @@
                     <element signature="method#squareRoot#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#cubeRoot#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#customRoot#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#squareNumber#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#cubeNumber#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#customPower#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -172,8 +170,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/wunderCal.java" />
-        <option value="$PROJECT_DIR$/src/wunderCalUI.java" />
         <option value="$PROJECT_DIR$/src/wunderCalLogic.java" />
+        <option value="$PROJECT_DIR$/src/wunderCalUI.java" />
       </list>
     </option>
   </component>
@@ -1527,14 +1525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
@@ -1560,9 +1550,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
+        <state relative-caret-position="563">
           <caret line="636" column="77" lean-forward="false" selection-start-line="636" selection-start-column="77" selection-end-line="636" selection-end-column="77" />
           <folding>
             <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
