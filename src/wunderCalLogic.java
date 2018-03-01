@@ -25,11 +25,54 @@ public class wunderCalLogic {
 
     }
 
-    /* public static double addFractions() {
+    //OUTLINED ONLY!
+    public static double addFractions() {
 
-        return
+        return 0; //added for compiling
 
-    } */
+    }
+
+    //OUTLINED ONLY!
+    public static double subtractFractions() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double multiplyFractions() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double divideFractions() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double reduceFraction() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double convertToMixedFraction() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY
+    public static double convertToImproperFraction() {
+
+        return 0; //added for compiling
+
+    }
 
     //AREA functions
     public static double squareAreaFunction(double side) {

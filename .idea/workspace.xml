@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="" />
+    <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/wunderCal/wunderCalUI.class" afterPath="$PROJECT_DIR$/out/production/wunderCal/wunderCalUI.class" />
+      <change beforePath="$PROJECT_DIR$/src/wunderCalLogic.java" afterPath="$PROJECT_DIR$/src/wunderCalLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/wunderCalUI.java" afterPath="$PROJECT_DIR$/src/wunderCalUI.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,82 +19,129 @@
     <favorites_list name="wunderCal" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wunderCal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wunderCalUI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3258">
-              <caret line="589" column="52" lean-forward="false" selection-start-line="589" selection-start-column="52" selection-end-line="589" selection-end-column="52" />
-              <folding>
-                <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayFractionsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayDecimalsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayPercentsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayRadicalsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayExponentsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayAreaMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#displayVolumeMenuToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#chooseMenuToDisplayToUser#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
-                <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wunderCalLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-                <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="wunderCal.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wunderCalUI.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="801">
+                  <caret line="705" column="1" lean-forward="true" selection-start-line="705" selection-start-column="1" selection-end-line="705" selection-end-column="1" />
+                  <folding>
+                    <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayFractionsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayDecimalsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayPercentsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayRadicalsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayExponentsSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayAreaMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#displayVolumeMenuToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#chooseMenuToDisplayToUser#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="e#11482#11498#0" expanded="true" />
+                    <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wunderCalLogic.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="18">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding>
+                    <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="wunderCalLogic.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#addFractions#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#subtractFractions#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#multiplyFractions#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#divideFractions#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#reduceFraction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#convertToMixedFraction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#convertToImproperFraction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,8 +167,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/wunderCal.java" />
-        <option value="$PROJECT_DIR$/src/wunderCalLogic.java" />
         <option value="$PROJECT_DIR$/src/wunderCalUI.java" />
+        <option value="$PROJECT_DIR$/src/wunderCalLogic.java" />
       </list>
     </option>
   </component>
@@ -126,7 +178,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1" fullScreen="true">
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -288,34 +340,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-39" width="1922" height="1120" extended-state="0" />
+    <frame x="-1" y="-39" width="1922" height="1120" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32732734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36914062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36836836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1858006" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2946524" sideWeight="0.49496403" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23475936" sideWeight="0.49496403" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3141994" sideWeight="0.505036" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -370,9 +422,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -381,6 +431,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -395,10 +446,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -410,7 +463,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -439,7 +491,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -468,6 +519,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -482,10 +534,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -496,9 +550,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -506,9 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -517,6 +567,7 @@
         <state relative-caret-position="2941">
           <caret line="173" column="8" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -531,10 +582,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -546,7 +599,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -574,9 +626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -585,6 +635,7 @@
         <state relative-caret-position="4148">
           <caret line="244" column="36" lean-forward="false" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="36" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -599,10 +650,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -614,7 +667,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -642,9 +694,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +703,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -682,6 +731,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -696,10 +746,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -710,9 +762,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,6 +771,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -735,10 +786,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -750,7 +803,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -778,9 +830,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +839,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -818,6 +867,7 @@
         <state relative-caret-position="4590">
           <caret line="306" column="28" lean-forward="false" selection-start-line="306" selection-start-column="28" selection-end-line="306" selection-end-column="28" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -832,10 +882,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -846,9 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +907,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -886,6 +935,7 @@
         <state relative-caret-position="2670">
           <caret line="178" column="23" lean-forward="false" selection-start-line="178" selection-start-column="23" selection-end-line="178" selection-end-column="23" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -900,10 +950,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -914,9 +966,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +975,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -954,6 +1003,7 @@
         <state relative-caret-position="1020">
           <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -968,10 +1018,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -982,9 +1034,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +1043,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1022,6 +1071,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1036,10 +1086,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1050,9 +1102,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,6 +1111,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1075,10 +1126,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1090,7 +1143,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1119,7 +1171,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1148,6 +1199,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1162,10 +1214,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1176,9 +1230,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,9 +1238,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,6 +1247,7 @@
         <state relative-caret-position="2941">
           <caret line="173" column="8" lean-forward="false" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1211,10 +1262,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1226,7 +1279,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1254,9 +1306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,6 +1315,7 @@
         <state relative-caret-position="4148">
           <caret line="244" column="36" lean-forward="false" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="36" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1279,10 +1330,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1294,7 +1347,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1322,9 +1374,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,7 +1383,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1362,6 +1411,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1376,10 +1426,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1390,9 +1442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1401,6 +1451,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1415,10 +1466,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1430,36 +1483,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1485,19 +1508,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#wunderCal#0" expanded="false" />
+            <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#multiplicationFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#divisionFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#parallelogramAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#trapezoidAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#circleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cubeVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#rectangularPrismVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#pyramidVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#cylinderVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
+            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3258">
-          <caret line="589" column="52" lean-forward="false" selection-start-line="589" selection-start-column="52" selection-end-line="589" selection-end-column="52" />
+        <state relative-caret-position="801">
+          <caret line="705" column="1" lean-forward="true" selection-start-line="705" selection-start-column="1" selection-end-line="705" selection-end-column="1" />
           <folding>
+            <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayBasicMathMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displaySimpleMathSubMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1512,10 +1562,12 @@
             <element signature="method#readUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#userInputStringToDouble#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#showCurrentFormula#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="e#11482#11498#0" expanded="true" />
             <element signature="method#processUserInput#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processMainMenuSelection#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processBasicMathMenuSelections#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processSimpleMathSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processFractionsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>

@@ -277,32 +277,6 @@ public class wunderCalUI {
 
     }
 
-    //takes in the currentMenu variable from runUI and uses that number to select and display the menu that corresponds to the selected number
-    /* public static void displayBasicMathMenuSubMenus(int currentMenu) {
-
-        switch(currentMenu) {
-            case SIMPLEMATHSUBMENU:
-                displaySimpleMathSubMenuToUser();
-                break;
-            case FRACTIONSSUBMENU:
-                displayFractionsSubMenuToUser();
-                break;
-            case DECIMALSSUBMENU:
-                displayDecimalsSubMenuToUser();
-                break;
-            case PERCENTSSUBMENU:
-                displayPercentsSubMenuToUser();
-                break;
-            case RADICALSSUBMENU:
-                displayRadicalsSubMenuToUser();
-                break;
-            case EXPONENTSSUBMENU:
-                displayExponentsSubMenuToUser();
-                break;
-        }
-
-    } */
-
     //reads the users input, stores it in a String userInput and returns it (always capitalized)
     public static String readUserInput() {
 
@@ -388,6 +362,9 @@ public class wunderCalUI {
             case SIMPLEMATHSUBMENU:
                 currentMenu = processSimpleMathSubMenuFunctions(userInput);
                 break;
+            case FRACTIONSSUBMENU:
+                currentMenu = processFractionsSubMenuFunctions(userInput);
+                break;
             case AREAMENU:
                 currentMenu = processAreaMenuFunctions(userInput);
                 break;
@@ -457,9 +434,10 @@ public class wunderCalUI {
 
     }
 
+    //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
     public static Integer processSimpleMathSubMenuFunctions(String userInput) {
 
-        int nextMenu = BASICMATHMENU;
+        int nextMenu = SIMPLEMATHSUBMENU;
         double num1, num2, result;
 
         switch(userInput) {
@@ -497,6 +475,46 @@ public class wunderCalUI {
                 num2 = userInputStringToDouble();
                 result = wunderCalLogic.divisionFunction(num1, num2);
                 System.out.println("Result: " + result + "\n");
+                break;
+        }
+
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
+
+        return nextMenu;
+
+    }
+
+    //OUTLINED ONLY! takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
+    public static Integer processFractionsSubMenuFunctions(String userInput) {
+
+        int nextMenu = FRACTIONSSUBMENU;
+        double num1, num2, result;
+
+        switch(userInput) {
+            case MENU_BACK:
+                nextMenu = MAINMENU;
+                break;
+            case BM_SMFR_ADDFRACS:
+                break;
+            case BM_SMFR_SUBFRACS:
+                break;
+            case BM_SMFR_MULTIFRACS:
+                break;
+            case BM_SMFR_DIVIDEFRACS:
+                break;
+            case BM_SMFR_REDUCEFRAC:
+                break;
+            case BM_SMFR_CONVERTTOMIXED:
+                break;
+            case BM_SMFR_CONVERTTOIMPROPER:
                 break;
         }
 
@@ -684,51 +702,5 @@ public class wunderCalUI {
         return nextMenu;
 
     }
-
-    //takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
-    /*public static Integer processExponentMenu(String userInput) {
-
-        int nextMenu = EXPONENTMENU;
-        double num, customPower, result;
-
-        switch(userInput) {
-            case MENU_BACK:
-                nextMenu = MAINMENU;
-                break;
-            case EXPONENTMENU_SQUARED:
-                System.out.print("Number: ");
-                num = userInputStringToDouble();
-                result = wunderCalLogic.numberSquared(num);
-                System.out.println("Result: " + result + "\n");
-                break;
-            case EXPONENTMENU_CUBED:
-                System.out.print("Number: ");
-                num = userInputStringToDouble();
-                result = wunderCalLogic.numberCubed(num);
-                System.out.println("Result: " + result + "\n");
-                break;
-            case EXPONENTMENU_CHOOSE:
-                System.out.print("Number: ");
-                num = userInputStringToDouble();
-                System.out.print("Custom Power: ");
-                customPower = userInputStringToDouble();
-                result = wunderCalLogic.numberWithCustomPower(num, customPower);
-                System.out.println("Result: " + result + "\n");
-                break;
-        }
-
-        if (!userInput.equals(MENU_BACK)) {
-            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
-            String userAnswer = readUserInput();
-            System.out.print("\n");
-
-            if (userAnswer.equals("Y")) {
-                showCurrentFormula(userInput);
-            }
-        }
-
-        return nextMenu;
-
-    }*/
 
 }
