@@ -126,6 +126,29 @@ public class wunderCalLogic {
 
     }
 
+    //EXPONENTSSUBMENU functions
+
+    //OUTLINED ONLY!
+    public static double squareNumber() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double cubeNumber() {
+
+        return 0; //added for compiling
+
+    }
+
+    //OUTLINED ONLY!
+    public static double customPower() {
+
+        return 0; //added for compiling
+
+    }
+
     //AREA functions
     public static double squareAreaFunction(double side) {
 
@@ -209,25 +232,6 @@ public class wunderCalLogic {
     public static double sphereVolume(double radius) {
 
         return (Math.pow(radius, 3) * Math.PI) * (4 / 3);
-
-    }
-
-    //EXPONENT functions
-    public static double numberSquared(double num) {
-
-        return Math.pow(num, 2);
-
-    }
-
-    public static double numberCubed(double num) {
-
-        return Math.pow(num, 3);
-
-    }
-
-    public static double numberWithCustomPower(double num, double customPower) {
-
-        return Math.pow(num, customPower);
 
     }
 

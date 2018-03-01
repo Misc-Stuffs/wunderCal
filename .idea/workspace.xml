@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a169ab6d-19d3-4e6a-92a3-ab1a8e8140d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/wunderCalLogic.java" afterPath="$PROJECT_DIR$/src/wunderCalLogic.java" />
       <change beforePath="$PROJECT_DIR$/src/wunderCalUI.java" afterPath="$PROJECT_DIR$/src/wunderCalUI.java" />
     </list>
@@ -18,13 +17,13 @@
     <favorites_list name="wunderCal" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.58877003">
+    <splitter split-orientation="horizontal" split-proportion="0.4884696">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="wunderCal.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
+                <state relative-caret-position="-9">
                   <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
@@ -34,8 +33,8 @@
           <file leaf-file-name="wunderCalUI.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="657">
-                  <caret line="601" column="76" lean-forward="false" selection-start-line="601" selection-start-column="76" selection-end-line="601" selection-end-column="76" />
+                <state relative-caret-position="887">
+                  <caret line="636" column="77" lean-forward="false" selection-start-line="636" selection-start-column="77" selection-end-line="636" selection-end-column="77" />
                   <folding>
                     <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
                     <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -61,6 +60,7 @@
                     <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
                     <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
                     <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+                    <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
                     <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
                     <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
                   </folding>
@@ -71,7 +71,7 @@
           <file leaf-file-name="wunderCalLogic.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
+                <state relative-caret-position="-9">
                   <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
                     <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -90,9 +90,6 @@
                     <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -105,8 +102,8 @@
           <file leaf-file-name="wunderCalLogic.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="657">
-                  <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+                <state relative-caret-position="717">
+                  <caret line="145" column="39" lean-forward="false" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
                   <folding>
                     <element signature="method#additionFunction#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -125,6 +122,9 @@
                     <element signature="method#squareRoot#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#cubeRoot#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#customRoot#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#squareNumber#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#cubeNumber#0;class#wunderCalLogic#0" expanded="false" />
+                    <element signature="method#customPower#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#squareAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#rectangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#triangleAreaFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -139,9 +139,6 @@
                     <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
                     <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-                    <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -421,7 +418,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -463,6 +460,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -490,9 +488,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -518,9 +513,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -554,6 +546,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -605,6 +598,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -632,9 +626,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,6 +667,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -703,9 +695,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,9 +728,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -775,6 +761,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -818,6 +805,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -845,9 +833,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -881,9 +866,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,6 +899,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -952,9 +935,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,6 +968,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1023,9 +1004,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,6 +1037,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1094,9 +1073,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1130,6 +1106,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1173,6 +1150,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1200,9 +1178,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1228,9 +1203,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1264,6 +1236,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1315,6 +1288,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1342,9 +1316,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1386,6 +1357,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1413,9 +1385,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1449,9 +1418,6 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1485,6 +1451,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1528,6 +1495,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>
@@ -1555,16 +1523,13 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="-9">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
@@ -1572,7 +1537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCalLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="-9">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="method#subtractionFunction#0;class#wunderCalLogic#0" expanded="false" />
@@ -1591,17 +1556,14 @@
             <element signature="method#coneVolumeWithBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#coneVolumeWithoutBase#0;class#wunderCalLogic#0" expanded="false" />
             <element signature="method#sphereVolume#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberSquared#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberCubed#0;class#wunderCalLogic#0" expanded="false" />
-            <element signature="method#numberWithCustomPower#0;class#wunderCalLogic#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wunderCalUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="601" column="76" lean-forward="false" selection-start-line="601" selection-start-column="76" selection-end-line="601" selection-end-column="76" />
+        <state relative-caret-position="887">
+          <caret line="636" column="77" lean-forward="false" selection-start-line="636" selection-start-column="77" selection-end-line="636" selection-end-column="77" />
           <folding>
             <element signature="method#runUI#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#displayMainMenuToUser#0;class#wunderCalUI#0" expanded="false" />
@@ -1627,6 +1589,7 @@
             <element signature="method#processDecimalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processPercentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processRadicalsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
+            <element signature="method#processExponentsSubMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processAreaMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
             <element signature="method#processVolumeMenuFunctions#0;class#wunderCalUI#0" expanded="false" />
           </folding>

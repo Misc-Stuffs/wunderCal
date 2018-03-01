@@ -373,6 +373,9 @@ public class wunderCalUI {
             case RADICALSSUBMENU:
                 currentMenu = processRadicalsSubMenuFunctions(userInput);
                 break;
+            case EXPONENTSSUBMENU:
+                currentMenu = processExponentsSubMenuFunctions(userInput);
+                break;
             case AREAMENU:
                 currentMenu = processAreaMenuFunctions(userInput);
                 break;
@@ -613,6 +616,38 @@ public class wunderCalUI {
             case BM_SMRD_CUBEROOT:
                 break;
             case BM_SMRD_CUSTOMROOT:
+                break;
+        }
+
+        if (!userInput.equals(MENU_BACK)) {
+            System.out.print("Would you like to see the formula for the previous function? (Y/N): ");
+            String userAnswer = readUserInput();
+            System.out.print("\n");
+
+            if (userAnswer.equals("Y")) {
+                showCurrentFormula(userInput);
+            }
+        }
+
+        return nextMenu;
+
+    }
+
+    //OUTLINED ONLY! takes the userInput and carries out the corresponding function, then returns the users result and puts them back on the sub-menu they were previously on
+    public static Integer processExponentsSubMenuFunctions(String userInput) {
+
+        int nextMenu = EXPONENTSSUBMENU;
+        double num1, num2, result;
+
+        switch(userInput) {
+            case MENU_BACK:
+                nextMenu = MAINMENU;
+                break;
+            case BM_SMEX_SQUARED:
+                break;
+            case BM_SMEX_CUBED:
+                break;
+            case BM_SMEX_CUSTOMEXPONENT:
                 break;
         }
 
